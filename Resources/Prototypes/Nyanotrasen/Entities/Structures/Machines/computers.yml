@@ -33,3 +33,12 @@
       state: request
     - map: ["computerLayerKeys"]
       state: tech_key
+
+- type: entity
+  parent: BaseComputer
+  id: BaseComputerBuildOnly
+  name: computer
+  components:
+    - type: Construction
+      graph: ComputerBuildOnly
+      node: computer

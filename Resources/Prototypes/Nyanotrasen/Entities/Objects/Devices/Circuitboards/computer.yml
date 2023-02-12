@@ -10,3 +10,12 @@
       prototype: ComputerShipyard
     - type: StaticPrice
       price: 750
+
+- type: entity
+  parent: BaseComputerCircuitboard
+  id: HelmConsoleCircuitboard
+  name: helm console board
+  description: A computer printed circuit board for a helm console.
+  components:
+    - type: ComputerBoard
+      prototype: ShipHelm
