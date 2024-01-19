@@ -59,8 +59,8 @@
   - ChiefMedicalOfficer
   - MedicalDoctor
   - Psychologist
-  - MedicalCyborg
   - Paramedic
+  - MedicalRobot
 
 - type: department
   id: Security
@@ -89,5 +89,5 @@
   description: department-Silicon-description
   color: "#8D9AAC"
   roles:
-  - Cyborg
-  - MedicalCyborg
+  - Robot
+  - MedicalRobot
